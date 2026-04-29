@@ -1,11 +1,16 @@
 :root {
-    --primary-color: #0B1B36; /* Dark Navy for Header Button */
-    --secondary-color: #105F75; /* Teal for Hero Button */
-    --text-main: #1E293B; /* Dark slate */
+    --primary-color: #0B1B36;
+    /* Dark Navy for Header Button */
+    --secondary-color: #105F75;
+    /* Teal for Hero Button */
+    --text-main: #1E293B;
+    /* Dark slate */
     --text-muted: #475569;
     --bg-light: #F8FAFC;
-    --bg-hero-right: #E6EEF9; /* Light blue right background */
-    --icon-bg: #BBE2F6; /* Light blue for icon background */
+    --bg-hero-right: #E6EEF9;
+    /* Light blue right background */
+    --icon-bg: #BBE2F6;
+    /* Light blue for icon background */
     --icon-color: #0C5972;
     --border-color: #E2E8F0;
     --white: #FFFFFF;
@@ -25,7 +30,8 @@ html {
 body {
     font-family: var(--font-family);
     color: var(--text-main);
-    background-color: var(--bg-light); /* Base background */
+    background-color: var(--bg-light);
+    /* Base background */
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
@@ -85,7 +91,8 @@ a {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 80px; /* Right below the header */
+    top: 80px;
+    /* Right below the header */
     left: 0;
     width: 100%;
     background-color: var(--white);
@@ -113,7 +120,8 @@ a {
     position: relative;
 }
 
-.nav a:hover, .nav a.active {
+.nav a:hover,
+.nav a.active {
     color: var(--text-main);
 }
 
@@ -124,7 +132,8 @@ a {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #38BDF8; /* Light blue underline */
+    background-color: #38BDF8;
+    /* Light blue underline */
 }
 
 .header-actions {
@@ -196,7 +205,7 @@ a {
 /* Hero Section */
 .hero {
     position: relative;
-    background-color: var(--bg-light); 
+    background-color: var(--bg-light);
     overflow: hidden;
 }
 
@@ -210,7 +219,8 @@ a {
     height: 100%;
     background-color: var(--bg-hero-right);
     z-index: 0;
-    display: block; /* Show on mobile behind everything */
+    display: block;
+    /* Show on mobile behind everything */
 }
 
 .hero-container {
@@ -269,7 +279,7 @@ a {
     max-width: 600px;
     border-radius: 24px;
     object-fit: cover;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 
 /* Services Section */
@@ -277,7 +287,8 @@ a {
     background-color: var(--bg-light);
     padding: 80px 0;
     position: relative;
-    z-index: 2; /* Sit above the curved background if it overlaps */
+    z-index: 2;
+    /* Sit above the curved background if it overlaps */
 }
 
 .section-header {
@@ -314,7 +325,7 @@ a {
 
 .service-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(0,0,0,0.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
 }
 
 .icon-wrapper {
@@ -464,7 +475,7 @@ a {
     left: 0;
     width: 100%;
     padding: 32px 24px;
-    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
     color: var(--white);
     transform: translateY(20px);
     opacity: 0;
@@ -499,7 +510,7 @@ a {
     max-width: 700px;
     margin: 0 auto;
     padding: 40px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 .booking-header {
@@ -535,6 +546,7 @@ a {
     .form-row {
         flex-direction: row;
     }
+
     .half-width {
         flex: 1;
     }
@@ -592,7 +604,8 @@ a {
 }
 
 .btn-confirm:hover {
-    background-color: #0c4a5c; /* Darker secondary color */
+    background-color: #0c4a5c;
+    /* Darker secondary color */
 }
 
 /* Contact Info Section */
@@ -613,7 +626,7 @@ a {
     background-color: var(--white);
     padding: 40px 24px;
     border-radius: 16px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -659,16 +672,24 @@ a {
     transform: translateY(0);
 }
 
-.delay-100 { transition-delay: 100ms; }
-.delay-200 { transition-delay: 200ms; }
-.delay-300 { transition-delay: 300ms; }
+.delay-100 {
+    transition-delay: 100ms;
+}
+
+.delay-200 {
+    transition-delay: 200ms;
+}
+
+.delay-300 {
+    transition-delay: 300ms;
+}
 
 /* Media Queries */
 @media (min-width: 768px) {
     .hero-buttons {
         flex-direction: row;
     }
-    
+
     .hero h1 {
         font-size: 2.75rem;
     }
@@ -690,7 +711,7 @@ a {
         justify-content: space-between;
         text-align: left;
     }
-    
+
     .footer-right {
         justify-content: flex-end;
     }
@@ -711,8 +732,10 @@ a {
     }
 
     .hero::before {
-        width: 50%; /* Only half on desktop */
-        border-bottom-left-radius: 60px; /* Curve */
+        width: 50%;
+        /* Only half on desktop */
+        border-bottom-left-radius: 60px;
+        /* Curve */
     }
 
     .hero-content {
@@ -732,7 +755,7 @@ a {
     .hero h1 {
         font-size: 3.5rem;
     }
-    
+
     .hero p {
         font-size: 1.125rem;
     }
@@ -740,7 +763,7 @@ a {
     .hero-image {
         height: auto;
     }
-    
+
     .hero-image-wrapper {
         justify-content: flex-end;
     }
