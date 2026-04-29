@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Optical Center</title>
+    <meta name="description"
+        content="Experience clinical excellence in eyewear. Where pharmaceutical-grade precision meets high-end boutique fashion.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <img src="logo.png" alt="City Optical Center Logo" class="logo-img">
+                <span class="logo-text">City Optical Center</span>
+            </a>
+
+            <nav class="nav" id="nav-menu">
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#eyewear">Eyewear</a>
+                <a href="#appointment">Appointment</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#appointment" class="btn btn-primary">Book Appointment</a>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle mobile menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-content fade-in">
+                    <h1>Experience Clinical Excellence in Eyewear</h1>
+                    <p>Where pharmaceutical-grade precision meets high-end boutique fashion. Discover a new standard of
+                        vision care tailored perfectly to you.</p>
+                    <div class="hero-buttons">
+                        <a href="#appointment" class="btn btn-secondary">Schedule Your Visit Today</a>
+                        <a href="#eyewear" class="btn btn-outline">Explore Collections</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper fade-in delay-200">
+                    <img src="hero.png" alt="Professional optician in a modern clinic" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>Precision Services</h2>
+                    <p>Expert care utilizing the latest technology to ensure optimal eye health and visual clarity.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service Card 1 -->
+                    <div class="service-card fade-in delay-100">
+                        <div class="icon-wrapper">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                        </div>
+                        <h3>Comprehensive Eye Exams</h3>
+                        <p>Thorough clinical assessments ensuring lasting optical health and exact prescriptions.</p>
+                        <a href="#" class="service-link">Learn more
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- Service Card 2 -->
+                    <div class="service-card fade-in delay-200">
+                        <div class="icon-wrapper">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="6" cy="15" r="4"></circle>
+                                <circle cx="18" cy="15" r="4"></circle>
+                                <path d="M14 15a2 2 0 0 0-4 0"></path>
+                                <path d="M2.5 13L5 7c.7-1 1.4-1.2 2.5-1.2h9c1.1 0 1.8.2 2.5 1.2l2.5 6"></path>
+                            </svg>
+                        </div>
+                        <h3>Designer Frames</h3>
+                        <p>Curated collections from luxury fashion houses, tailored by expert opticians.</p>
+                        <a href="#" class="service-link">Browse collection
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- Service Card 3 -->
+                    <div class="service-card fade-in delay-300">
+                        <div class="icon-wrapper">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <circle cx="12" cy="12" r="4"></circle>
+                            </svg>
+                        </div>
+                        <h3>Contact Lens Fittings</h3>
+                        <p>Specialized fittings for all eye types, ensuring comfort and perfect vision.</p>
+                        <a href="#" class="service-link">Book fitting
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eyewear" class="eyewear">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>Premium Eyewear Collection</h2>
+                    <p>Discover our meticulously curated selection of designer frames, crafted for both style and
+                        comfort.</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item fade-in delay-100">
+                        <img src="eyewear1.png" alt="Modern Minimalist Eyewear" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Modern Minimalist</h3>
+                            <a href="#appointment" class="btn btn-outline"
+                                style="color: white; border-color: white;">View Details</a>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in delay-200">
+                        <img src="eyewear2.png" alt="Luxury Designer Sunglasses" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Luxury Sunglasses</h3>
+                            <a href="#appointment" class="btn btn-outline"
+                                style="color: white; border-color: white;">View Details</a>
+                        </div>
+                    </div>
+                    <div class="gallery-item fade-in delay-300">
+                        <img src="eyewear3.png" alt="Classic Tortoiseshell Glasses" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h3>Classic Tortoiseshell</h3>
+                            <a href="#appointment" class="btn btn-outline"
+                                style="color: white; border-color: white;">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="appointment" class="appointment">
+            <div class="container">
+                <div class="booking-wrapper fade-in delay-100">
+                    <div class="booking-header">
+                        <h2>Book an Appointment</h2>
+                        <p>Fill in your details and we'll get you scheduled.</p>
+                    </div>
+                    <form class="booking-form" action="https://formspree.io/f/xaqagkzw" method="POST">
+                        <div class="form-row">
+                            <div class="form-group half-width">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="Name" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group half-width">
+                                <label for="phone">Phone *</label>
+                                <input type="tel" id="phone" name="Phone" placeholder="+25 xxx-xxx-xxx" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="Email" placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="type">Appointment Type *</label>
+                            <select id="type" name="Appointment_Type" required>
+                                <option value="" disabled selected>Select type...</option>
+                                <option value="exam">Comprehensive Eye Exam</option>
+                                <option value="fitting">Contact Lens Fitting</option>
+                                <option value="consultation">Frame Consultation</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group half-width">
+                                <label for="date">Preferred Date *</label>
+                                <input type="date" id="date" name="Date" required>
+                            </div>
+                            <div class="form-group half-width">
+                                <label for="time">Preferred Time *</label>
+                                <input type="time" id="time" name="Time" value="09:00" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="notes">Notes / Concerns</label>
+                            <textarea id="notes" name="Notes" rows="3"
+                                placeholder="Any specific concerns or questions..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-confirm">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            Confirm Booking
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-info-section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>Contact Us</h2>
+                    <p>Have a general question or need assistance? Reach out to our team.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="info-card fade-in delay-100">
+                        <div class="icon-wrapper">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>+252 612668884 </p>
+                    </div>
+                    <div class="info-card fade-in delay-200">
+                        <div class="icon-wrapper">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>cocmogadishu@gmail.com </p>
+                    </div>
+                    <div class="info-card fade-in delay-300">
+                        <div class="icon-wrapper">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p>Isgoyska Howlwadaag, Mogadishu</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="City Optical Center Logo" class="logo-img">
+                    <span class="logo-text">City Optical Center</span>
+                </div>
+                <p class="copyright">&copy; 2024 City Optical Center. Clinical Excellence in Eyewear.</p>
+            </div>
+            <div class="footer-right">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="accessibility.html">Accessibility</a>
+                <a href="locations.html">Locations</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const navMenu = document.getElementById('nav-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when a link is clicked
+        const navLinks = document.querySelectorAll('.nav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Scroll Animations
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target); // Stop observing once visible
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+
+</html>
